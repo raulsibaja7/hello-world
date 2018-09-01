@@ -1,0 +1,13 @@
+package main
+//Every Go program starts with a package declaration.
+//The package “main” is a special go package that is used with programs that are meant to be executable.
+
+import "fmt" //The “fmt” package contains code for dealing with I/O.
+
+func main() {
+  //A function in go is declared using the func keyword.
+
+  //The main() function is the entry point of an executable program in Go. It is the first thing that is invoked when you run an executable program.
+  fmt.Println("Hello World")
+  //This line contains a call to the Println() function of the fmt package
+}
